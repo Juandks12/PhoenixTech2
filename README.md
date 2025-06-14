@@ -2,7 +2,7 @@
 
 Este proyecto es una mejora para el Ecommerce de PhoenixTech, usando nuevas tecnologías
 
-🔧 Tecnologías y Arquitectura Propuesta
+#🔧 Tecnologías y Arquitectura Propuesta
 Frontend (React)
 React Router para navegación entre páginas.
 
@@ -34,7 +34,7 @@ Render o Railway para hosting gratuito del backend.
 
 Vercel o Netlify para desplegar el frontend.
 
-🧩 Módulos/Funcionalidades Clave
+#🧩 Módulos/Funcionalidades Clave
 1. Usuarios
 Registro e inicio de sesión.
 
@@ -73,3 +73,18 @@ Página “Quiénes somos”.
 Página de contacto o soporte (con formulario de contacto).
 
 Reseñas y puntuaciones de productos (opcional).
+
+#🌟 Ideas para mejorarlo (para futura mejora) 
+Dark mode/light mode.
+
+Internacionalización (i18n): soporte para varios idiomas.
+
+Notificaciones en tiempo real (WebSockets) para admins cuando se realice una compra.
+
+Historial de pedidos para el usuario.
+
+Wishlist o favoritos.
+
+SEO-friendly: usa React Helmet.
+
+

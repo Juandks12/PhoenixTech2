@@ -3,88 +3,88 @@
 Este proyecto es una mejora para el Ecommerce de PhoenixTech, usando nuevas tecnologías
 
 # 🔧 Tecnologías y Arquitectura Propuesta
-Frontend (React)
-React Router para navegación entre páginas.
+1. Frontend (React)
+- React Router para navegación entre páginas.
 
-Redux Toolkit o Context API para manejar el estado global (especialmente útil para el carrito y sesión).
+- Redux Toolkit o Context API para manejar el estado global (especialmente útil para el carrito y sesión).
 
-Tailwind CSS o Material UI en lugar de Bootstrap para un diseño más moderno y responsivo.
+- Tailwind CSS o Material UI en lugar de Bootstrap para un diseño más moderno y responsivo.
 
-Axios para consumir APIs.
+- Axios para consumir APIs.
 
-React Hook Form + Yup para formularios y validaciones.
+- React Hook Form + Yup para formularios y validaciones.
 
-Backend (Node.js con Express)
-Express.js como framework web.
+2. Backend (Node.js con Express)
+- Express.js como framework web.
 
-MongoDB con Mongoose para base de datos (ideal para estructuras flexibles de productos).
+- MongoDB con Mongoose para base de datos (ideal para estructuras flexibles de productos).
 
-JWT + Bcrypt para autenticación y seguridad.
+- JWT + Bcrypt para autenticación y seguridad.
 
-Cloudinary o Firebase Storage para almacenar imágenes de productos.
+- Cloudinary o Firebase Storage para almacenar imágenes de productos.
 
-Cors, Helmet, Rate Limit para mejorar seguridad.
+- Cors, Helmet, Rate Limit para mejorar seguridad.
 
-Extras recomendados
-Stripe o MercadoPago para pasarela de pagos.
+3. Extras recomendados
+- Stripe o MercadoPago para pasarela de pagos.
 
-Docker para facilitar despliegue.
+- Docker para facilitar despliegue.
 
-Render o Railway para hosting gratuito del backend.
+- Render o Railway para hosting gratuito del backend.
 
-Vercel o Netlify para desplegar el frontend.
+- Vercel o Netlify para desplegar el frontend.
 
 # 🧩 Módulos/Funcionalidades Clave
 1. Usuarios
-Registro e inicio de sesión.
+- Registro e inicio de sesión.
 
-Roles: usuario, administrador.
+- Roles: usuario, administrador.
 
-Recuperación de contraseña.
+- Recuperación de contraseña.
 
 2. Productos
-Listado dinámico.
+- Listado dinámico.
 
-Filtrado y búsqueda.
+- Filtrado y búsqueda.
 
-Detalle de producto.
+- Detalle de producto.
 
 3. Carrito de compras
-Agregar/eliminar productos.
+- Agregar/eliminar productos.
 
-Vista previa del carrito.
+- Vista previa del carrito.
 
-Checkout con validación.
+- Checkout con validación.
 
 4. Administración
-Panel administrativo protegido.
+- Panel administrativo protegido.
 
-CRUD de productos (crear, editar, eliminar).
+- CRUD de productos (crear, editar, eliminar).
 
-Gestión de usuarios (opcional).
+- Gestión de usuarios (opcional).
 
-Dashboard con métricas básicas (ventas, productos más vistos).
+- Dashboard con métricas básicas (ventas, productos más vistos).
 
 5. Otros apartados
-Página principal con banners, promociones, productos destacados.
+- Página principal con banners, promociones, productos destacados.
 
-Página “Quiénes somos”.
+- Página “Quiénes somos”.
 
-Página de contacto o soporte (con formulario de contacto).
+- Página de contacto o soporte (con formulario de contacto).
 
-Reseñas y puntuaciones de productos (opcional).
+- Reseñas y puntuaciones de productos (opcional).
 
-#🌟 Ideas para mejorarlo (para futura mejora) 
-Dark mode/light mode.
+# 🌟 Ideas para mejorarlo (para futura mejora) 
+- Dark mode/light mode.
 
-Internacionalización (i18n): soporte para varios idiomas.
+- Internacionalización (i18n): soporte para varios idiomas.
 
-Notificaciones en tiempo real (WebSockets) para admins cuando se realice una compra.
+- Notificaciones en tiempo real (WebSockets) para admins cuando se realice una compra.
 
-Historial de pedidos para el usuario.
+- Historial de pedidos para el usuario.
 
-Wishlist o favoritos.
+- Wishlist o favoritos.
 
-SEO-friendly: usa React Helmet.
+- SEO-friendly: usa React Helmet.
 
 

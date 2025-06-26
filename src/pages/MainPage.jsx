@@ -11,7 +11,7 @@ export const MainPage = () => {
         <main>
         <ImageCarousel />
 
-
+        <h1>dsadadasdas</h1>
         </main>
 
         <footer>

@@ -1,13 +1,11 @@
+import { Box, Typography } from '@mui/material';
+
 export const Footer = () => {
-    return(
-        <>
-        <footer className="main-footer">
-            <div class="container p-3 text-white text-center">
-            <p>Phoenix Tech 2025</p>
-            </div>
-        </footer>
-
-
-</>
-    )
-}
+    return (
+        <Box component="footer" sx={{ backgroundColor: '#ff8906', textAlign: 'center', py: 2 }}>
+            <Typography variant="body1" color="black">
+                Phoenix Tech 2025
+            </Typography>
+        </Box>
+    );
+};
